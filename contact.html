@@ -1,0 +1,49 @@
+<html>
+<title>TRIPPER-ContactUs</title>
+<link rel='stylesheet' href="style.css">
+<center>
+<body style="background-color:grey;">
+	<div class="navbar">
+		<h1 class="logo">Roadmaster</h1>
+			<ul class="nav">
+				<li><a href="home.html" class="hoverlink">Home</a></li>
+				<li><a href="rides.html" class="hoverlink">Rides</a></li>
+				<li><a href="service.html" class="hoverlink">Service</a></li>
+				<li><a href="about.html" class="hoverlink">About Us</a></li>
+				<li><a href="contact.html" class="hoverlink">Contact Us</a></li>
+				<li><a href="login.html" class="hoverlink"><span id="loginstatus"></span></a></li>
+			</ul>
+        </div>
+<div class='content'>
+    <p>How can we help you today?</p>
+    <form class = "fieldset">
+        <label for="name">Name:</label>
+        <input type="text" name="name" size="20"><br>
+
+        <label for="mail">Email:</label>
+        <input type="text" name="mail" size="20"><br>
+
+        <label for="contact">Contact:</label>
+        <input type="text" name="contact" size="20"><br>
+
+        <br>You're interseted in:
+        <br><br>
+        <input type="radio" id="rides" name="interest" value="Rides">
+        <label for="rides">Rides</label><br>
+
+        <input type="radio" id="service" name="interest" value="Service">
+        <label for="service">Service</label><br>
+
+        <input type="radio" id="rent" name="interest" value="Rent">
+        <label for="rent">Rent</label>
+
+        <br><br>
+
+        <input type="checkbox" id="sub" name="sub" value="sub">
+        <label for="sub"> Subscribe to mailling list</label><br>
+    </form>
+    <button class= 'btn' onclick="alert('This feauture is still being built.')">Submit</button>
+</div>
+</body>
+</center>
+</html>
